@@ -1,0 +1,1344 @@
+{
+    "rate_limit": 1,
+    "expires_in": 300,
+    "api_latest_version": "1.2",
+    "generated_on": "2023-05-17T20:29:14+00:00",
+    "data": [
+        {
+            "code": "1001",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.5039,
+                "lng": -74.44883
+            },
+            "stop_id": "4229496",
+            "routes": [
+                "4012654",
+                "4014680",
+                "4014682",
+                "4015030",
+                "4015032",
+                "4015036",
+                "4015038",
+                "4015040",
+                "4015178",
+                "4015180",
+                "4015284",
+                "4015288",
+                "4015290",
+                "4015292",
+                "4015294",
+                "4016758"
+            ],
+            "name": "Student Activities Center Northbound"
+        },
+        {
+            "code": "1028",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.525106,
+                "lng": -74.438584
+            },
+            "stop_id": "4229570",
+            "routes": [
+                "4012654",
+                "4014680",
+                "4014682",
+                "4014958",
+                "4015034",
+                "4015040",
+                "4015044",
+                "4015178",
+                "4015180",
+                "4015286",
+                "4015294",
+                "4015298",
+                "4015300"
+            ],
+            "name": "Livingston Plaza"
+        },
+        {
+            "code": "1047",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.481294,
+                "lng": -74.436266
+            },
+            "stop_id": "4229596",
+            "routes": [
+                "4012654",
+                "4014680",
+                "4014682",
+                "4015036",
+                "4015038",
+                "4015042",
+                "4015044",
+                "4015178",
+                "4015180",
+                "4015288",
+                "4015290",
+                "4015296",
+                "4015300"
+            ],
+            "name": "Lipman Hall"
+        },
+        {
+            "code": "1055",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.499616,
+                "lng": -74.448202
+            },
+            "stop_id": "4229620",
+            "routes": [
+                "4012654",
+                "4014680",
+                "4014682",
+                "4015030",
+                "4015032",
+                "4015036",
+                "4015038",
+                "4015040",
+                "4015178",
+                "4015180",
+                "4015284",
+                "4015288",
+                "4015290",
+                "4015292",
+                "4015294"
+            ],
+            "name": "The Yard"
+        },
+        {
+            "code": "3014",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.504249,
+                "lng": -74.449742
+            },
+            "stop_id": "4229696",
+            "routes": [
+                "4012654",
+                "4014680",
+                "4015178",
+                "4016758"
+            ],
+            "name": "Student Activities Center Southbound"
+        },
+        {
+            "code": "10040",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.521872,
+                "lng": -74.463417
+            },
+            "stop_id": "4231636",
+            "routes": [
+                "4014682",
+                "4014958",
+                "4014962",
+                "4015030",
+                "4015042",
+                "4015180",
+                "4015292",
+                "4015302"
+            ],
+            "name": "Hill Center (SB)"
+        },
+        {
+            "code": "1052",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.485509,
+                "lng": -74.437198
+            },
+            "stop_id": "4253700",
+            "routes": [
+                "4012654",
+                "4014680",
+                "4014682",
+                "4015036",
+                "4015038",
+                "4015042",
+                "4015044",
+                "4015178",
+                "4015180",
+                "4015288",
+                "4015290",
+                "4015296",
+                "4015300"
+            ],
+            "name": "College Hall"
+        },
+        {
+            "code": "1043",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.492293,
+                "lng": -74.44324
+            },
+            "stop_id": "4253718",
+            "routes": [
+                "4012654",
+                "4014680",
+                "4015036",
+                "4015178",
+                "4015288"
+            ],
+            "name": "SoCam Apts NB"
+        },
+        {
+            "code": "2001",
+            "description": "we assigned code",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.741274,
+                "lng": -74.186955
+            },
+            "stop_id": "4253722",
+            "routes": [
+                "4014494"
+            ],
+            "name": "180 W Market St"
+        },
+        {
+            "code": "2003",
+            "description": "we assigned code",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.743386,
+                "lng": -74.191461
+            },
+            "stop_id": "4253724",
+            "routes": [
+                "4014494",
+                "4014496"
+            ],
+            "name": "Bergen Building"
+        },
+        {
+            "code": "2004",
+            "description": "we assigned code",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.739281,
+                "lng": -74.175143
+            },
+            "stop_id": "4253726",
+            "routes": [
+                "4014494"
+            ],
+            "name": "Blumenthal Hall"
+        },
+        {
+            "code": "2005",
+            "description": "we assigned code",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.740978,
+                "lng": -74.174247
+            },
+            "stop_id": "4253728",
+            "routes": [
+                "4014496",
+                "4014502",
+                "4014504",
+                "4014506"
+            ],
+            "name": "Boyden Hall"
+        },
+        {
+            "code": "2009",
+            "description": "we assigned code",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.741242,
+                "lng": -74.172097
+            },
+            "stop_id": "4253730",
+            "routes": [
+                "4014496",
+                "4014502",
+                "4014504",
+                "4014506"
+            ],
+            "name": "CLJ"
+        },
+        {
+            "code": "2012",
+            "description": "we assigned code",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.742285,
+                "lng": -74.190294
+            },
+            "stop_id": "4253732",
+            "routes": [
+                "4014494"
+            ],
+            "name": "Dental School"
+        },
+        {
+            "code": "2013",
+            "description": "we assigned code",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.736597,
+                "lng": -74.178506
+            },
+            "stop_id": "4253734",
+            "routes": [
+                "4014496"
+            ],
+            "name": "ECC"
+        },
+        {
+            "code": "2015",
+            "description": "we assigned code",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.741868,
+                "lng": -74.191581
+            },
+            "stop_id": "4253738",
+            "routes": [
+                "4014494",
+                "4014500"
+            ],
+            "name": "Hospital"
+        },
+        {
+            "code": "2017",
+            "description": "we assigned code",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.742787,
+                "lng": -74.183882
+            },
+            "stop_id": "4253742",
+            "routes": [
+                "4014494",
+                "4014496"
+            ],
+            "name": "ICPH"
+        },
+        {
+            "code": "2025",
+            "description": "we assigned code",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.739719,
+                "lng": -74.189567
+            },
+            "stop_id": "4253754",
+            "routes": [
+                "4014496",
+                "4014500",
+                "4014502"
+            ],
+            "name": "Medical School"
+        },
+        {
+            "code": "2026",
+            "description": "we assigned code",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.739686,
+                "lng": -74.189452
+            },
+            "stop_id": "4253756",
+            "routes": [
+                "4014494"
+            ],
+            "name": "Medical School (Arrival)"
+        },
+        {
+            "code": "2027",
+            "description": "we assigned code",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.741192,
+                "lng": -74.178811
+            },
+            "stop_id": "4253758",
+            "routes": [
+                "4014494",
+                "4014496"
+            ],
+            "name": "NJIT"
+        },
+        {
+            "code": "2028",
+            "description": "we assigned code",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.734819,
+                "lng": -74.164721
+            },
+            "stop_id": "4253760",
+            "routes": [
+                "4014494",
+                "4014500",
+                "4014506"
+            ],
+            "name": "Penn Station"
+        },
+        {
+            "code": "2031",
+            "description": "we assigned code",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.744492,
+                "lng": -74.172539
+            },
+            "stop_id": "4253762",
+            "routes": [
+                "4014496",
+                "4014504",
+                "4014506"
+            ],
+            "name": "Physical Plant"
+        },
+        {
+            "code": "2038",
+            "description": "we assigned code",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.746147,
+                "lng": -74.17175
+            },
+            "stop_id": "4253766",
+            "routes": [
+                "4014496"
+            ],
+            "name": "University North"
+        },
+        {
+            "code": "2039",
+            "description": "we assigned code",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.743789,
+                "lng": -74.170569
+            },
+            "stop_id": "4253768",
+            "routes": [
+                "4014496",
+                "4014502",
+                "4014504",
+                "4014506"
+            ],
+            "name": "Washington Park"
+        },
+        {
+            "code": "2044",
+            "description": "we assigned code",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.746906,
+                "lng": -74.1711
+            },
+            "stop_id": "4253770",
+            "routes": [
+                "4014496",
+                "4014504",
+                "4014506"
+            ],
+            "name": "Broad St"
+        },
+        {
+            "code": "1058",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.524,
+                "lng": -74.43663
+            },
+            "stop_id": "4254110",
+            "routes": [
+                "4012654",
+                "4014680",
+                "4014682",
+                "4014958",
+                "4015034",
+                "4015040",
+                "4015044",
+                "4015178",
+                "4015180",
+                "4015286",
+                "4015294",
+                "4015298",
+                "4015300"
+            ],
+            "name": "Livingston Student Center"
+        },
+        {
+            "code": "1002",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.514479,
+                "lng": -74.466153
+            },
+            "stop_id": "4259010",
+            "routes": [
+                "4014962",
+                "4015030",
+                "4015032",
+                "4015284",
+                "4015292",
+                "4015302"
+            ],
+            "name": "Stadium West Lot"
+        },
+        {
+            "code": "10035",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.503665,
+                "lng": -74.452402
+            },
+            "stop_id": "4259014",
+            "routes": [
+                "4012654",
+                "4014680",
+                "4014682",
+                "4015030",
+                "4015032",
+                "4015036",
+                "4015040",
+                "4015178",
+                "4015180",
+                "4015284",
+                "4015288",
+                "4015292",
+                "4015294"
+            ],
+            "name": "College Avenue Student Ctr"
+        },
+        {
+            "code": "1004",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.52192,
+                "lng": -74.463263
+            },
+            "stop_id": "4259016",
+            "routes": [
+                "4012654",
+                "4014680",
+                "4014962",
+                "4015032",
+                "4015034",
+                "4015042",
+                "4015178",
+                "4015284",
+                "4015286",
+                "4015296",
+                "4015298",
+                "4015302"
+            ],
+            "name": "Hill Center (NB)"
+        },
+        {
+            "code": "1005",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.523938,
+                "lng": -74.464221
+            },
+            "stop_id": "4259018",
+            "routes": [
+                "4012654",
+                "4014680",
+                "4015032",
+                "4015034",
+                "4015178",
+                "4015284",
+                "4015298"
+            ],
+            "name": "Sciences Building"
+        },
+        {
+            "code": "1011",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.482987,
+                "lng": -74.437535
+            },
+            "stop_id": "4259030",
+            "routes": [
+                "4012654",
+                "4014680",
+                "4014682",
+                "4015036",
+                "4015038",
+                "4015042",
+                "4015044",
+                "4015178",
+                "4015180",
+                "4015288",
+                "4015290",
+                "4015296",
+                "4015300"
+            ],
+            "name": "Red Oak Lane"
+        },
+        {
+            "code": "1022",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.518637,
+                "lng": -74.459854
+            },
+            "stop_id": "4259040",
+            "routes": [
+                "4015030",
+                "4015032",
+                "4015284"
+            ],
+            "name": "Werblin Recreation Center"
+        },
+        {
+            "code": "1034",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.523479,
+                "lng": -74.442508
+            },
+            "stop_id": "4259046",
+            "routes": [
+                "4014958",
+                "4015286",
+                "4015294"
+            ],
+            "name": "Busch-Livingston Health Center"
+        },
+        {
+            "code": "1036",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.523612,
+                "lng": -74.465127
+            },
+            "stop_id": "4259048",
+            "routes": [
+                "4014682",
+                "4014958",
+                "4014962",
+                "4015030",
+                "4015042",
+                "4015180",
+                "4015286",
+                "4015292",
+                "4015296",
+                "4015302"
+            ],
+            "name": "Allison Road Classrooms"
+        },
+        {
+            "code": "10430",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.491856,
+                "lng": -74.443093
+            },
+            "stop_id": "4259050",
+            "routes": [
+                "4014682",
+                "4015036",
+                "4015180",
+                "4015288",
+                "4016758"
+            ],
+            "name": "SoCam Apts SB"
+        },
+        {
+            "code": "1048",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.48,
+                "lng": -74.432522
+            },
+            "stop_id": "4259054",
+            "routes": [
+                "4012654",
+                "4014680",
+                "4014682",
+                "4015036",
+                "4015178",
+                "4015180",
+                "4015288"
+            ],
+            "name": "Biel Road"
+        },
+        {
+            "code": "1051",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.48523,
+                "lng": -74.43194
+            },
+            "stop_id": "4259058",
+            "routes": [
+                "4012654",
+                "4014680",
+                "4014682",
+                "4015036",
+                "4015178",
+                "4015180",
+                "4015288"
+            ],
+            "name": "Gibbons"
+        },
+        {
+            "code": "1056",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.523747,
+                "lng": -74.458373
+            },
+            "stop_id": "4259062",
+            "routes": [
+                "4012654",
+                "4014680",
+                "4014682",
+                "4014958",
+                "4015030",
+                "4015032",
+                "4015034",
+                "4015178",
+                "4015180",
+                "4015284",
+                "4015286",
+                "4015292",
+                "4015298",
+                "4016758"
+            ],
+            "name": "Busch Student Ctr"
+        },
+        {
+            "code": "3202",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 39.952097,
+                "lng": -75.126481
+            },
+            "stop_id": "4259072",
+            "routes": [
+                "4014858"
+            ],
+            "name": "City Lot 15"
+        },
+        {
+            "code": "3203",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 39.953253,
+                "lng": -75.125933
+            },
+            "stop_id": "4259074",
+            "routes": [
+                "4014858"
+            ],
+            "name": "City Lot 16"
+        },
+        {
+            "code": "3204",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 39.947582,
+                "lng": -75.120661
+            },
+            "stop_id": "4259076",
+            "routes": [
+                "4014858"
+            ],
+            "name": "Law School"
+        },
+        {
+            "code": "3205",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 39.943979,
+                "lng": -75.120531
+            },
+            "stop_id": "4259078",
+            "routes": [
+                "4014858"
+            ],
+            "name": "Nursing and Science Building [NSB]"
+        },
+        {
+            "code": "3206",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 39.948557,
+                "lng": -75.123476
+            },
+            "stop_id": "4259080",
+            "routes": [
+                "4014858"
+            ],
+            "name": "Business and Science Building [BSB]"
+        },
+        {
+            "code": "4000",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 39.942299,
+                "lng": -75.119866
+            },
+            "stop_id": "4259082",
+            "routes": [
+                "4014858"
+            ],
+            "name": "Joint Health Science Center"
+        },
+        {
+            "code": "10057",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.518798,
+                "lng": -74.459984
+            },
+            "stop_id": "4259568",
+            "routes": [
+                "4015032",
+                "4015292"
+            ],
+            "name": "Werblin Main Entrance"
+        },
+        {
+            "code": "1050",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.48095,
+                "lng": -74.42872
+            },
+            "stop_id": "4259722",
+            "routes": [
+                "4012654",
+                "4014680",
+                "4014682",
+                "4015036",
+                "4015178",
+                "4015180",
+                "4015288"
+            ],
+            "name": "Henderson"
+        },
+        {
+            "code": "3013",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.487913,
+                "lng": -74.439383
+            },
+            "stop_id": "4261662",
+            "routes": [
+                "4015296"
+            ],
+            "name": "Public Safety Building on Commercial Southbound"
+        },
+        {
+            "code": "1030",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.519863,
+                "lng": -74.433567
+            },
+            "stop_id": "4266590",
+            "routes": [
+                "4012654",
+                "4014680",
+                "4014682",
+                "4014958",
+                "4015034",
+                "4015040",
+                "4015178",
+                "4015180",
+                "4015286",
+                "4015298"
+            ],
+            "name": "Quads"
+        },
+        {
+            "code": "20180",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.7437,
+                "lng": -74.18132
+            },
+            "stop_id": "4266814",
+            "routes": [],
+            "name": "New Street"
+        },
+        {
+            "code": "1009",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.521807,
+                "lng": -74.456701
+            },
+            "stop_id": "4268596",
+            "routes": [
+                "4015030",
+                "4015292"
+            ],
+            "name": "Buell Apartments"
+        },
+        {
+            "code": "5001",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.515112,
+                "lng": -74.460526
+            },
+            "stop_id": "4274038",
+            "routes": [
+                "4016758"
+            ],
+            "name": "Lot 48 Far"
+        },
+        {
+            "code": "5002",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.499937,
+                "lng": -74.445447
+            },
+            "stop_id": "4274040",
+            "routes": [
+                "4016758"
+            ],
+            "name": "Zimmerli Art Museum SB"
+        },
+        {
+            "code": "5003",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.484649,
+                "lng": -74.435995
+            },
+            "stop_id": "4274042",
+            "routes": [
+                "4016758"
+            ],
+            "name": "Douglass Student Center"
+        },
+        {
+            "code": "5004",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.49325,
+                "lng": -74.4434
+            },
+            "stop_id": "4274044",
+            "routes": [
+                "4016758"
+            ],
+            "name": "George Street Northbound at Liberty Street"
+        },
+        {
+            "code": "5005",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.499707,
+                "lng": -74.445069
+            },
+            "stop_id": "4274046",
+            "routes": [
+                "4016758"
+            ],
+            "name": "Zimmerli Art Museum"
+        },
+        {
+            "code": "5006",
+            "description": "",
+            "url": "",
+            "parent_station_id": null,
+            "agency_ids": [
+                "1323"
+            ],
+            "station_id": null,
+            "location_type": "stop",
+            "location": {
+                "lat": 40.515112,
+                "lng": -74.460526
+            },
+            "stop_id": "4274048",
+            "routes": [
+                "4016758"
+            ],
+            "name": "Lot 48 Near"
+        }
+    ],
+    "api_version": "1.2"
+}

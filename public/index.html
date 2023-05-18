@@ -1,0 +1,21 @@
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>Select which route you'd like info for.</h1>
+    <form id="myForm" action="/form-handler" method="POST">
+        <select name="selection">
+            <option value="4014680" selected>Summer 1</option>
+            <option value="4014682">Summer 2</option>
+            <option value="4014958">B-He</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="result"></div>
+</body>
+
+</html>

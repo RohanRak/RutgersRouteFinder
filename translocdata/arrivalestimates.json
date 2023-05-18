@@ -1,0 +1,1155 @@
+{
+    "rate_limit": 1,
+    "expires_in": 5,
+    "api_latest_version": "1.2",
+    "generated_on": "2023-05-17T20:57:41+00:00",
+    "data": [
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014494",
+                    "vehicle_id": "4019583",
+                    "arrival_at": "2023-05-17T16:58:33-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014500",
+                    "vehicle_id": "4017069",
+                    "arrival_at": "2023-05-17T17:06:20-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014494",
+                    "vehicle_id": "4017075",
+                    "arrival_at": "2023-05-17T17:14:58-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014500",
+                    "vehicle_id": "4017071",
+                    "arrival_at": "2023-05-17T17:24:11-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014500",
+                    "vehicle_id": "4017069",
+                    "arrival_at": "2023-05-17T17:37:39-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014494",
+                    "vehicle_id": "4019583",
+                    "arrival_at": "2023-05-17T17:38:36-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014500",
+                    "vehicle_id": "4017071",
+                    "arrival_at": "2023-05-17T17:55:16-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014494",
+                    "vehicle_id": "4017075",
+                    "arrival_at": "2023-05-17T17:55:25-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4253738"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4017117",
+                    "arrival_at": "2023-05-17T17:06:47-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4016945",
+                    "arrival_at": "2023-05-17T17:45:59-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4229596"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019589",
+                    "arrival_at": "2023-05-17T17:07:07-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4018137",
+                    "arrival_at": "2023-05-17T17:10:19-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019599",
+                    "arrival_at": "2023-05-17T17:15:45-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019589",
+                    "arrival_at": "2023-05-17T17:39:45-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4018137",
+                    "arrival_at": "2023-05-17T17:43:23-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019599",
+                    "arrival_at": "2023-05-17T17:48:44-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4253734"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014682",
+                    "vehicle_id": "4016935",
+                    "arrival_at": "2023-05-17T16:58:13-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4259048"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019589",
+                    "arrival_at": "2023-05-17T17:19:03-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4018137",
+                    "arrival_at": "2023-05-17T17:22:31-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019599",
+                    "arrival_at": "2023-05-17T17:27:52-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019589",
+                    "arrival_at": "2023-05-17T17:51:50-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4018137",
+                    "arrival_at": "2023-05-17T17:55:23-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4253762"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014858",
+                    "vehicle_id": "4018133",
+                    "arrival_at": "2023-05-17T17:06:41-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014858",
+                    "vehicle_id": "4018133",
+                    "arrival_at": "2023-05-17T17:31:18-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014858",
+                    "vehicle_id": "4018133",
+                    "arrival_at": "2023-05-17T17:56:14-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4259072"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4016945",
+                    "arrival_at": "2023-05-17T17:19:42-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4017117",
+                    "arrival_at": "2023-05-17T17:37:26-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4259062"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014494",
+                    "vehicle_id": "4019583",
+                    "arrival_at": "2023-05-17T17:00:12-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014494",
+                    "vehicle_id": "4017075",
+                    "arrival_at": "2023-05-17T17:17:11-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014494",
+                    "vehicle_id": "4019583",
+                    "arrival_at": "2023-05-17T17:40:50-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4253732"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019599",
+                    "arrival_at": "2023-05-17T17:02:35-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014494",
+                    "vehicle_id": "4019583",
+                    "arrival_at": "2023-05-17T17:08:54-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014494",
+                    "vehicle_id": "4017075",
+                    "arrival_at": "2023-05-17T17:25:48-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019589",
+                    "arrival_at": "2023-05-17T17:26:41-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4018137",
+                    "arrival_at": "2023-05-17T17:30:14-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019599",
+                    "arrival_at": "2023-05-17T17:35:35-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014494",
+                    "vehicle_id": "4019583",
+                    "arrival_at": "2023-05-17T17:49:29-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4253742"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4017117",
+                    "arrival_at": "2023-05-17T17:09:29-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4016945",
+                    "arrival_at": "2023-05-17T17:48:47-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4259722"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014858",
+                    "vehicle_id": "4018133",
+                    "arrival_at": "2023-05-17T17:19:53-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014858",
+                    "vehicle_id": "4018133",
+                    "arrival_at": "2023-05-17T17:44:43-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4259082"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014494",
+                    "vehicle_id": "4017075",
+                    "arrival_at": "2023-05-17T17:08:31-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014494",
+                    "vehicle_id": "4019583",
+                    "arrival_at": "2023-05-17T17:32:06-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014494",
+                    "vehicle_id": "4017075",
+                    "arrival_at": "2023-05-17T17:48:55-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4253756"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014858",
+                    "vehicle_id": "4018133",
+                    "arrival_at": "2023-05-17T17:15:14-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014858",
+                    "vehicle_id": "4018133",
+                    "arrival_at": "2023-05-17T17:40:01-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4259078"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019589",
+                    "arrival_at": "2023-05-17T17:13:25-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4018137",
+                    "arrival_at": "2023-05-17T17:16:47-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019599",
+                    "arrival_at": "2023-05-17T17:22:11-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019589",
+                    "arrival_at": "2023-05-17T17:46:09-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4018137",
+                    "arrival_at": "2023-05-17T17:49:49-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019599",
+                    "arrival_at": "2023-05-17T17:55:00-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4253768"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019589",
+                    "arrival_at": "2023-05-17T17:11:13-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4018137",
+                    "arrival_at": "2023-05-17T17:14:32-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019599",
+                    "arrival_at": "2023-05-17T17:19:56-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019589",
+                    "arrival_at": "2023-05-17T17:43:56-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4018137",
+                    "arrival_at": "2023-05-17T17:47:35-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019599",
+                    "arrival_at": "2023-05-17T17:52:56-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4253730"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4016945",
+                    "arrival_at": "2023-05-17T17:07:56-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4017117",
+                    "arrival_at": "2023-05-17T17:25:52-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4229620"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019599",
+                    "arrival_at": "2023-05-17T16:58:48-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014494",
+                    "vehicle_id": "4019583",
+                    "arrival_at": "2023-05-17T17:10:46-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019589",
+                    "arrival_at": "2023-05-17T17:22:55-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4018137",
+                    "arrival_at": "2023-05-17T17:26:26-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014494",
+                    "vehicle_id": "4017075",
+                    "arrival_at": "2023-05-17T17:27:39-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019599",
+                    "arrival_at": "2023-05-17T17:31:46-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014494",
+                    "vehicle_id": "4019583",
+                    "arrival_at": "2023-05-17T17:51:21-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019589",
+                    "arrival_at": "2023-05-17T17:55:44-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4253758"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4017117",
+                    "arrival_at": "2023-05-17T17:05:24-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4016945",
+                    "arrival_at": "2023-05-17T17:44:33-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4259030"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4017117",
+                    "arrival_at": "2023-05-17T17:13:49-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4016945",
+                    "arrival_at": "2023-05-17T17:53:17-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4253700"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019589",
+                    "arrival_at": "2023-05-17T16:58:18-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4018137",
+                    "arrival_at": "2023-05-17T17:00:38-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019599",
+                    "arrival_at": "2023-05-17T17:06:17-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019589",
+                    "arrival_at": "2023-05-17T17:30:21-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4018137",
+                    "arrival_at": "2023-05-17T17:33:54-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019599",
+                    "arrival_at": "2023-05-17T17:39:16-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4253724"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4016945",
+                    "arrival_at": "2023-05-17T17:25:42-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4017117",
+                    "arrival_at": "2023-05-17T17:43:20-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4229570"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014858",
+                    "vehicle_id": "4018133",
+                    "arrival_at": "2023-05-17T17:07:30-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014858",
+                    "vehicle_id": "4018133",
+                    "arrival_at": "2023-05-17T17:32:08-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014858",
+                    "vehicle_id": "4018133",
+                    "arrival_at": "2023-05-17T17:57:26-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4259074"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014682",
+                    "vehicle_id": "4016935",
+                    "arrival_at": "2023-05-17T17:00:57-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4231636"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014494",
+                    "vehicle_id": "4019583",
+                    "arrival_at": "2023-05-17T17:12:58-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014494",
+                    "vehicle_id": "4017075",
+                    "arrival_at": "2023-05-17T17:29:51-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014494",
+                    "vehicle_id": "4019583",
+                    "arrival_at": "2023-05-17T17:53:33-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4253726"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014494",
+                    "vehicle_id": "4017075",
+                    "arrival_at": "2023-05-17T16:58:38-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014500",
+                    "vehicle_id": "4017071",
+                    "arrival_at": "2023-05-17T17:05:29-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014500",
+                    "vehicle_id": "4017069",
+                    "arrival_at": "2023-05-17T17:18:50-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014494",
+                    "vehicle_id": "4019583",
+                    "arrival_at": "2023-05-17T17:20:44-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014500",
+                    "vehicle_id": "4017071",
+                    "arrival_at": "2023-05-17T17:36:36-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014494",
+                    "vehicle_id": "4017075",
+                    "arrival_at": "2023-05-17T17:37:35-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014500",
+                    "vehicle_id": "4017069",
+                    "arrival_at": "2023-05-17T17:50:10-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4253760"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014500",
+                    "vehicle_id": "4017069",
+                    "arrival_at": "2023-05-17T16:58:49-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019589",
+                    "arrival_at": "2023-05-17T17:01:22-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4018137",
+                    "arrival_at": "2023-05-17T17:04:19-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019599",
+                    "arrival_at": "2023-05-17T17:09:50-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014500",
+                    "vehicle_id": "4017071",
+                    "arrival_at": "2023-05-17T17:16:40-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014500",
+                    "vehicle_id": "4017069",
+                    "arrival_at": "2023-05-17T17:30:05-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019589",
+                    "arrival_at": "2023-05-17T17:33:53-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4018137",
+                    "arrival_at": "2023-05-17T17:37:28-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019599",
+                    "arrival_at": "2023-05-17T17:42:50-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014500",
+                    "vehicle_id": "4017071",
+                    "arrival_at": "2023-05-17T17:47:48-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4253754"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4016945",
+                    "arrival_at": "2023-05-17T17:17:25-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4017117",
+                    "arrival_at": "2023-05-17T17:35:11-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4259018"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4016945",
+                    "arrival_at": "2023-05-17T17:02:35-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4016945",
+                    "arrival_at": "2023-05-17T17:11:09-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4017117",
+                    "arrival_at": "2023-05-17T17:20:36-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4017117",
+                    "arrival_at": "2023-05-17T17:29:01-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4229496"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4017117",
+                    "arrival_at": "2023-05-17T17:08:25-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4016945",
+                    "arrival_at": "2023-05-17T17:47:42-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4259054"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4016945",
+                    "arrival_at": "2023-05-17T17:26:37-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4017117",
+                    "arrival_at": "2023-05-17T17:44:14-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4254110"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019589",
+                    "arrival_at": "2023-05-17T17:17:00-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4018137",
+                    "arrival_at": "2023-05-17T17:20:27-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019599",
+                    "arrival_at": "2023-05-17T17:25:49-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019589",
+                    "arrival_at": "2023-05-17T17:49:46-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4018137",
+                    "arrival_at": "2023-05-17T17:53:28-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4253770"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019589",
+                    "arrival_at": "2023-05-17T17:18:26-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4018137",
+                    "arrival_at": "2023-05-17T17:21:54-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019599",
+                    "arrival_at": "2023-05-17T17:27:15-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019589",
+                    "arrival_at": "2023-05-17T17:51:15-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4018137",
+                    "arrival_at": "2023-05-17T17:54:51-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4253766"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014858",
+                    "vehicle_id": "4018133",
+                    "arrival_at": "2023-05-17T17:02:25-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014858",
+                    "vehicle_id": "4018133",
+                    "arrival_at": "2023-05-17T17:26:52-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014858",
+                    "vehicle_id": "4018133",
+                    "arrival_at": "2023-05-17T17:51:46-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4259080"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4017117",
+                    "arrival_at": "2023-05-17T16:58:35-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4016945",
+                    "arrival_at": "2023-05-17T17:37:18-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4017117",
+                    "arrival_at": "2023-05-17T17:54:45-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4229696"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4016945",
+                    "arrival_at": "2023-05-17T17:04:56-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014682",
+                    "vehicle_id": "4016935",
+                    "arrival_at": "2023-05-17T17:06:30-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4017117",
+                    "arrival_at": "2023-05-17T17:22:55-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4259014"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019589",
+                    "arrival_at": "2023-05-17T17:20:51-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4018137",
+                    "arrival_at": "2023-05-17T17:24:20-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019599",
+                    "arrival_at": "2023-05-17T17:29:41-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4019589",
+                    "arrival_at": "2023-05-17T17:53:39-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014496",
+                    "vehicle_id": "4018137",
+                    "arrival_at": "2023-05-17T17:57:09-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4253728"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014494",
+                    "vehicle_id": "4019583",
+                    "arrival_at": "2023-05-17T17:04:24-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014494",
+                    "vehicle_id": "4017075",
+                    "arrival_at": "2023-05-17T17:21:20-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014494",
+                    "vehicle_id": "4019583",
+                    "arrival_at": "2023-05-17T17:45:01-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4253722"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014858",
+                    "vehicle_id": "4018133",
+                    "arrival_at": "2023-05-17T17:11:57-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014858",
+                    "vehicle_id": "4018133",
+                    "arrival_at": "2023-05-17T17:36:41-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4259076"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4016945",
+                    "arrival_at": "2023-05-17T16:58:34-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4017117",
+                    "arrival_at": "2023-05-17T17:16:40-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4016945",
+                    "arrival_at": "2023-05-17T17:56:17-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4253718"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4017117",
+                    "arrival_at": "2023-05-17T17:11:29-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4016945",
+                    "arrival_at": "2023-05-17T17:50:52-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4259058"
+        },
+        {
+            "arrivals": [
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4016945",
+                    "arrival_at": "2023-05-17T17:15:53-04:00",
+                    "type": "vehicle-based"
+                },
+                {
+                    "route_id": "4014680",
+                    "vehicle_id": "4017117",
+                    "arrival_at": "2023-05-17T17:33:41-04:00",
+                    "type": "vehicle-based"
+                }
+            ],
+            "agency_id": "1323",
+            "stop_id": "4259016"
+        }
+    ],
+    "api_version": "1.2"
+}

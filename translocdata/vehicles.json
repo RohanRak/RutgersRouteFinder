@@ -1,0 +1,1106 @@
+{
+    "rate_limit": 1,
+    "expires_in": 1,
+    "api_latest_version": "1.2",
+    "generated_on": "2023-05-17T20:07:46+00:00",
+    "data": {
+        "1323": [
+            {
+                "standing_capacity": null,
+                "description": null,
+                "seating_capacity": null,
+                "last_updated_on": "2023-05-17T20:07:32+00:00",
+                "call_name": "4181",
+                "speed": 2.7,
+                "vehicle_id": "4016935",
+                "segment_id": "4539269",
+                "passenger_load": 0.07462686567164178,
+                "route_id": "4014682",
+                "arrival_estimates": [
+                    {
+                        "route_id": "4014682",
+                        "arrival_at": "2023-05-17T16:09:14-04:00",
+                        "stop_id": "4259050"
+                    },
+                    {
+                        "route_id": "4014682",
+                        "arrival_at": "2023-05-17T16:13:52-04:00",
+                        "stop_id": "4259030"
+                    },
+                    {
+                        "route_id": "4014682",
+                        "arrival_at": "2023-05-17T16:15:51-04:00",
+                        "stop_id": "4229596"
+                    },
+                    {
+                        "route_id": "4014682",
+                        "arrival_at": "2023-05-17T16:17:31-04:00",
+                        "stop_id": "4259054"
+                    },
+                    {
+                        "route_id": "4014682",
+                        "arrival_at": "2023-05-17T16:18:47-04:00",
+                        "stop_id": "4259722"
+                    },
+                    {
+                        "route_id": "4014682",
+                        "arrival_at": "2023-05-17T16:21:03-04:00",
+                        "stop_id": "4259058"
+                    },
+                    {
+                        "route_id": "4014682",
+                        "arrival_at": "2023-05-17T16:23:16-04:00",
+                        "stop_id": "4253700"
+                    },
+                    {
+                        "route_id": "4014682",
+                        "arrival_at": "2023-05-17T16:28:08-04:00",
+                        "stop_id": "4229496"
+                    },
+                    {
+                        "route_id": "4014682",
+                        "arrival_at": "2023-05-17T16:33:11-04:00",
+                        "stop_id": "4229570"
+                    },
+                    {
+                        "route_id": "4014682",
+                        "arrival_at": "2023-05-17T16:36:27-04:00",
+                        "stop_id": "4254110"
+                    },
+                    {
+                        "route_id": "4014682",
+                        "arrival_at": "2023-05-17T16:46:18-04:00",
+                        "stop_id": "4259062"
+                    },
+                    {
+                        "route_id": "4014682",
+                        "arrival_at": "2023-05-17T16:50:17-04:00",
+                        "stop_id": "4259048"
+                    },
+                    {
+                        "route_id": "4014682",
+                        "arrival_at": "2023-05-17T16:52:28-04:00",
+                        "stop_id": "4231636"
+                    },
+                    {
+                        "route_id": "4014682",
+                        "arrival_at": "2023-05-17T16:57:37-04:00",
+                        "stop_id": "4259014"
+                    }
+                ],
+                "tracking_status": "up",
+                "location": {
+                    "lat": 40.49475323318022,
+                    "lng": -74.43959276249663
+                },
+                "heading": 177
+            },
+            {
+                "standing_capacity": null,
+                "description": null,
+                "seating_capacity": null,
+                "last_updated_on": "2023-05-17T20:07:36+00:00",
+                "call_name": "4182",
+                "speed": 3.996,
+                "vehicle_id": "4016945",
+                "segment_id": "4539299",
+                "passenger_load": 0.05970149253731343,
+                "route_id": "4014680",
+                "arrival_estimates": [
+                    {
+                        "route_id": "4014680",
+                        "arrival_at": "2023-05-17T16:09:11-04:00",
+                        "stop_id": "4229696"
+                    },
+                    {
+                        "route_id": "4014680",
+                        "arrival_at": "2023-05-17T16:15:48-04:00",
+                        "stop_id": "4259030"
+                    },
+                    {
+                        "route_id": "4014680",
+                        "arrival_at": "2023-05-17T16:17:21-04:00",
+                        "stop_id": "4229596"
+                    },
+                    {
+                        "route_id": "4014680",
+                        "arrival_at": "2023-05-17T16:18:59-04:00",
+                        "stop_id": "4259054"
+                    },
+                    {
+                        "route_id": "4014680",
+                        "arrival_at": "2023-05-17T16:20:02-04:00",
+                        "stop_id": "4259722"
+                    },
+                    {
+                        "route_id": "4014680",
+                        "arrival_at": "2023-05-17T16:22:07-04:00",
+                        "stop_id": "4259058"
+                    },
+                    {
+                        "route_id": "4014680",
+                        "arrival_at": "2023-05-17T16:24:28-04:00",
+                        "stop_id": "4253700"
+                    },
+                    {
+                        "route_id": "4014680",
+                        "arrival_at": "2023-05-17T16:27:20-04:00",
+                        "stop_id": "4253718"
+                    },
+                    {
+                        "route_id": "4014680",
+                        "arrival_at": "2023-05-17T16:31:19-04:00",
+                        "stop_id": "4229496"
+                    },
+                    {
+                        "route_id": "4014680",
+                        "arrival_at": "2023-05-17T16:33:42-04:00",
+                        "stop_id": "4259014"
+                    }
+                ],
+                "tracking_status": "up",
+                "location": {
+                    "lat": 40.5148205,
+                    "lng": -74.4577595
+                },
+                "heading": 216
+            },
+            {
+                "standing_capacity": null,
+                "description": null,
+                "seating_capacity": null,
+                "last_updated_on": "2023-05-17T20:07:32+00:00",
+                "call_name": "4129",
+                "speed": 0.18,
+                "vehicle_id": "4017069",
+                "segment_id": null,
+                "passenger_load": 0.05970149253731343,
+                "route_id": "4014500",
+                "arrival_estimates": [
+                    {
+                        "route_id": "4014500",
+                        "arrival_at": "2023-05-17T16:09:03-04:00",
+                        "stop_id": "4253760"
+                    },
+                    {
+                        "route_id": "4014500",
+                        "arrival_at": "2023-05-17T16:21:15-04:00",
+                        "stop_id": "4253754"
+                    },
+                    {
+                        "route_id": "4014500",
+                        "arrival_at": "2023-05-17T16:27:11-04:00",
+                        "stop_id": "4253738"
+                    },
+                    {
+                        "route_id": "4014500",
+                        "arrival_at": "2023-05-17T16:41:19-04:00",
+                        "stop_id": "4253760"
+                    },
+                    {
+                        "route_id": "4014500",
+                        "arrival_at": "2023-05-17T16:53:30-04:00",
+                        "stop_id": "4253754"
+                    },
+                    {
+                        "route_id": "4014500",
+                        "arrival_at": "2023-05-17T16:59:27-04:00",
+                        "stop_id": "4253738"
+                    }
+                ],
+                "tracking_status": "up",
+                "location": {
+                    "lat": 40.733842,
+                    "lng": -74.166394
+                },
+                "heading": 136
+            },
+            {
+                "standing_capacity": null,
+                "description": null,
+                "seating_capacity": null,
+                "last_updated_on": "2023-05-17T20:07:38+00:00",
+                "call_name": "4130",
+                "speed": 0.0,
+                "vehicle_id": "4017071",
+                "segment_id": null,
+                "passenger_load": 0.0,
+                "route_id": "4014500",
+                "arrival_estimates": [
+                    {
+                        "route_id": "4014500",
+                        "arrival_at": "2023-05-17T16:16:31-04:00",
+                        "stop_id": "4253754"
+                    },
+                    {
+                        "route_id": "4014500",
+                        "arrival_at": "2023-05-17T16:27:42-04:00",
+                        "stop_id": "4253738"
+                    },
+                    {
+                        "route_id": "4014500",
+                        "arrival_at": "2023-05-17T16:39:58-04:00",
+                        "stop_id": "4253760"
+                    },
+                    {
+                        "route_id": "4014500",
+                        "arrival_at": "2023-05-17T16:51:23-04:00",
+                        "stop_id": "4253754"
+                    },
+                    {
+                        "route_id": "4014500",
+                        "arrival_at": "2023-05-17T17:02:35-04:00",
+                        "stop_id": "4253738"
+                    }
+                ],
+                "tracking_status": "up",
+                "location": {
+                    "lat": 40.736502,
+                    "lng": -74.166759
+                },
+                "heading": 283
+            },
+            {
+                "standing_capacity": null,
+                "description": null,
+                "seating_capacity": null,
+                "last_updated_on": "2023-05-17T20:07:37+00:00",
+                "call_name": "4132",
+                "speed": 0.288,
+                "vehicle_id": "4017075",
+                "segment_id": "4539257",
+                "passenger_load": 0.0,
+                "route_id": "4014494",
+                "arrival_estimates": [
+                    {
+                        "route_id": "4014494",
+                        "arrival_at": "2023-05-17T16:08:48-04:00",
+                        "stop_id": "4253760"
+                    },
+                    {
+                        "route_id": "4014494",
+                        "arrival_at": "2023-05-17T16:20:04-04:00",
+                        "stop_id": "4253756"
+                    },
+                    {
+                        "route_id": "4014494",
+                        "arrival_at": "2023-05-17T16:26:35-04:00",
+                        "stop_id": "4253738"
+                    },
+                    {
+                        "route_id": "4014494",
+                        "arrival_at": "2023-05-17T16:28:42-04:00",
+                        "stop_id": "4253732"
+                    },
+                    {
+                        "route_id": "4014494",
+                        "arrival_at": "2023-05-17T16:33:12-04:00",
+                        "stop_id": "4253722"
+                    },
+                    {
+                        "route_id": "4014494",
+                        "arrival_at": "2023-05-17T16:37:16-04:00",
+                        "stop_id": "4253742"
+                    },
+                    {
+                        "route_id": "4014494",
+                        "arrival_at": "2023-05-17T16:39:08-04:00",
+                        "stop_id": "4253758"
+                    },
+                    {
+                        "route_id": "4014494",
+                        "arrival_at": "2023-05-17T16:41:20-04:00",
+                        "stop_id": "4253726"
+                    },
+                    {
+                        "route_id": "4014494",
+                        "arrival_at": "2023-05-17T16:48:57-04:00",
+                        "stop_id": "4253760"
+                    },
+                    {
+                        "route_id": "4014494",
+                        "arrival_at": "2023-05-17T17:00:19-04:00",
+                        "stop_id": "4253756"
+                    },
+                    {
+                        "route_id": "4014494",
+                        "arrival_at": "2023-05-17T17:06:50-04:00",
+                        "stop_id": "4253738"
+                    }
+                ],
+                "tracking_status": "up",
+                "location": {
+                    "lat": 40.73431453391685,
+                    "lng": -74.16677880306345
+                },
+                "heading": 98
+            },
+            {
+                "standing_capacity": null,
+                "description": null,
+                "seating_capacity": null,
+                "last_updated_on": "2023-05-17T20:07:44+00:00",
+                "call_name": "4184",
+                "speed": 36.792,
+                "vehicle_id": "4017089",
+                "segment_id": "4539269",
+                "passenger_load": 0.07462686567164178,
+                "route_id": "4014682",
+                "arrival_estimates": [
+                    {
+                        "route_id": "4014682",
+                        "arrival_at": "2023-05-17T16:09:53-04:00",
+                        "stop_id": "4254110"
+                    },
+                    {
+                        "route_id": "4014682",
+                        "arrival_at": "2023-05-17T16:19:50-04:00",
+                        "stop_id": "4259062"
+                    },
+                    {
+                        "route_id": "4014682",
+                        "arrival_at": "2023-05-17T16:23:50-04:00",
+                        "stop_id": "4259048"
+                    },
+                    {
+                        "route_id": "4014682",
+                        "arrival_at": "2023-05-17T16:26:02-04:00",
+                        "stop_id": "4231636"
+                    },
+                    {
+                        "route_id": "4014682",
+                        "arrival_at": "2023-05-17T16:31:12-04:00",
+                        "stop_id": "4259014"
+                    },
+                    {
+                        "route_id": "4014682",
+                        "arrival_at": "2023-05-17T16:35:36-04:00",
+                        "stop_id": "4229620"
+                    },
+                    {
+                        "route_id": "4014682",
+                        "arrival_at": "2023-05-17T16:41:11-04:00",
+                        "stop_id": "4259050"
+                    },
+                    {
+                        "route_id": "4014682",
+                        "arrival_at": "2023-05-17T16:45:58-04:00",
+                        "stop_id": "4259030"
+                    },
+                    {
+                        "route_id": "4014682",
+                        "arrival_at": "2023-05-17T16:48:00-04:00",
+                        "stop_id": "4229596"
+                    },
+                    {
+                        "route_id": "4014682",
+                        "arrival_at": "2023-05-17T16:49:40-04:00",
+                        "stop_id": "4259054"
+                    },
+                    {
+                        "route_id": "4014682",
+                        "arrival_at": "2023-05-17T16:50:57-04:00",
+                        "stop_id": "4259722"
+                    },
+                    {
+                        "route_id": "4014682",
+                        "arrival_at": "2023-05-17T16:53:14-04:00",
+                        "stop_id": "4259058"
+                    },
+                    {
+                        "route_id": "4014682",
+                        "arrival_at": "2023-05-17T16:55:28-04:00",
+                        "stop_id": "4253700"
+                    },
+                    {
+                        "route_id": "4014682",
+                        "arrival_at": "2023-05-17T17:00:21-04:00",
+                        "stop_id": "4229496"
+                    },
+                    {
+                        "route_id": "4014682",
+                        "arrival_at": "2023-05-17T17:05:25-04:00",
+                        "stop_id": "4229570"
+                    }
+                ],
+                "tracking_status": "up",
+                "location": {
+                    "lat": 40.52515952941176,
+                    "lng": -74.43756588235294
+                },
+                "heading": 45
+            },
+            {
+                "standing_capacity": null,
+                "description": null,
+                "seating_capacity": null,
+                "last_updated_on": "2023-05-17T20:07:43+00:00",
+                "call_name": "4199",
+                "speed": 34.668,
+                "vehicle_id": "4017117",
+                "segment_id": "4539299",
+                "passenger_load": 0.13432835820895522,
+                "route_id": "4014680",
+                "arrival_estimates": [
+                    {
+                        "route_id": "4014680",
+                        "arrival_at": "2023-05-17T16:08:35-04:00",
+                        "stop_id": "4229620"
+                    },
+                    {
+                        "route_id": "4014680",
+                        "arrival_at": "2023-05-17T16:12:14-04:00",
+                        "stop_id": "4229496"
+                    },
+                    {
+                        "route_id": "4014680",
+                        "arrival_at": "2023-05-17T16:17:24-04:00",
+                        "stop_id": "4259016"
+                    },
+                    {
+                        "route_id": "4014680",
+                        "arrival_at": "2023-05-17T16:18:55-04:00",
+                        "stop_id": "4259018"
+                    },
+                    {
+                        "route_id": "4014680",
+                        "arrival_at": "2023-05-17T16:21:16-04:00",
+                        "stop_id": "4259062"
+                    },
+                    {
+                        "route_id": "4014680",
+                        "arrival_at": "2023-05-17T16:27:42-04:00",
+                        "stop_id": "4229570"
+                    },
+                    {
+                        "route_id": "4014680",
+                        "arrival_at": "2023-05-17T16:28:38-04:00",
+                        "stop_id": "4254110"
+                    },
+                    {
+                        "route_id": "4014680",
+                        "arrival_at": "2023-05-17T16:38:47-04:00",
+                        "stop_id": "4229696"
+                    },
+                    {
+                        "route_id": "4014680",
+                        "arrival_at": "2023-05-17T16:45:45-04:00",
+                        "stop_id": "4259030"
+                    },
+                    {
+                        "route_id": "4014680",
+                        "arrival_at": "2023-05-17T16:47:21-04:00",
+                        "stop_id": "4229596"
+                    },
+                    {
+                        "route_id": "4014680",
+                        "arrival_at": "2023-05-17T16:49:02-04:00",
+                        "stop_id": "4259054"
+                    },
+                    {
+                        "route_id": "4014680",
+                        "arrival_at": "2023-05-17T16:50:07-04:00",
+                        "stop_id": "4259722"
+                    },
+                    {
+                        "route_id": "4014680",
+                        "arrival_at": "2023-05-17T16:52:14-04:00",
+                        "stop_id": "4259058"
+                    },
+                    {
+                        "route_id": "4014680",
+                        "arrival_at": "2023-05-17T16:54:38-04:00",
+                        "stop_id": "4253700"
+                    },
+                    {
+                        "route_id": "4014680",
+                        "arrival_at": "2023-05-17T16:57:32-04:00",
+                        "stop_id": "4253718"
+                    },
+                    {
+                        "route_id": "4014680",
+                        "arrival_at": "2023-05-17T17:01:35-04:00",
+                        "stop_id": "4229496"
+                    },
+                    {
+                        "route_id": "4014680",
+                        "arrival_at": "2023-05-17T17:04:02-04:00",
+                        "stop_id": "4259014"
+                    },
+                    {
+                        "route_id": "4014680",
+                        "arrival_at": "2023-05-17T17:07:26-04:00",
+                        "stop_id": "4229620"
+                    }
+                ],
+                "tracking_status": "up",
+                "location": {
+                    "lat": 40.50152116161229,
+                    "lng": -74.45015737888676
+                },
+                "heading": 140
+            },
+            {
+                "standing_capacity": null,
+                "description": null,
+                "seating_capacity": null,
+                "last_updated_on": "2023-05-17T20:07:33+00:00",
+                "call_name": "8386",
+                "speed": 0.0,
+                "vehicle_id": "4018133",
+                "segment_id": "4539265",
+                "passenger_load": 0.021739130434782608,
+                "route_id": "4014858",
+                "arrival_estimates": [
+                    {
+                        "route_id": "4014858",
+                        "arrival_at": "2023-05-17T16:08:42-04:00",
+                        "stop_id": "4259080"
+                    },
+                    {
+                        "route_id": "4014858",
+                        "arrival_at": "2023-05-17T16:11:33-04:00",
+                        "stop_id": "4259072"
+                    },
+                    {
+                        "route_id": "4014858",
+                        "arrival_at": "2023-05-17T16:11:56-04:00",
+                        "stop_id": "4259074"
+                    },
+                    {
+                        "route_id": "4014858",
+                        "arrival_at": "2023-05-17T16:16:34-04:00",
+                        "stop_id": "4259076"
+                    },
+                    {
+                        "route_id": "4014858",
+                        "arrival_at": "2023-05-17T16:19:37-04:00",
+                        "stop_id": "4259078"
+                    },
+                    {
+                        "route_id": "4014858",
+                        "arrival_at": "2023-05-17T16:24:15-04:00",
+                        "stop_id": "4259082"
+                    },
+                    {
+                        "route_id": "4014858",
+                        "arrival_at": "2023-05-17T16:31:24-04:00",
+                        "stop_id": "4259080"
+                    },
+                    {
+                        "route_id": "4014858",
+                        "arrival_at": "2023-05-17T16:34:27-04:00",
+                        "stop_id": "4259072"
+                    },
+                    {
+                        "route_id": "4014858",
+                        "arrival_at": "2023-05-17T16:34:50-04:00",
+                        "stop_id": "4259074"
+                    },
+                    {
+                        "route_id": "4014858",
+                        "arrival_at": "2023-05-17T16:39:24-04:00",
+                        "stop_id": "4259076"
+                    },
+                    {
+                        "route_id": "4014858",
+                        "arrival_at": "2023-05-17T16:42:26-04:00",
+                        "stop_id": "4259078"
+                    },
+                    {
+                        "route_id": "4014858",
+                        "arrival_at": "2023-05-17T16:47:02-04:00",
+                        "stop_id": "4259082"
+                    },
+                    {
+                        "route_id": "4014858",
+                        "arrival_at": "2023-05-17T16:54:10-04:00",
+                        "stop_id": "4259080"
+                    },
+                    {
+                        "route_id": "4014858",
+                        "arrival_at": "2023-05-17T16:57:13-04:00",
+                        "stop_id": "4259072"
+                    },
+                    {
+                        "route_id": "4014858",
+                        "arrival_at": "2023-05-17T16:57:36-04:00",
+                        "stop_id": "4259074"
+                    },
+                    {
+                        "route_id": "4014858",
+                        "arrival_at": "2023-05-17T17:02:09-04:00",
+                        "stop_id": "4259076"
+                    },
+                    {
+                        "route_id": "4014858",
+                        "arrival_at": "2023-05-17T17:05:11-04:00",
+                        "stop_id": "4259078"
+                    }
+                ],
+                "tracking_status": "up",
+                "location": {
+                    "lat": 39.947181349672405,
+                    "lng": -75.12344201650085
+                },
+                "heading": 5
+            },
+            {
+                "standing_capacity": null,
+                "description": null,
+                "seating_capacity": null,
+                "last_updated_on": "2023-05-17T20:07:38+00:00",
+                "call_name": "8391",
+                "speed": 5.184,
+                "vehicle_id": "4018137",
+                "segment_id": "4539187",
+                "passenger_load": 0.06521739130434782,
+                "route_id": "4014496",
+                "arrival_estimates": [
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:08:34-04:00",
+                        "stop_id": "4253728"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:10:39-04:00",
+                        "stop_id": "4253758"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:13:06-04:00",
+                        "stop_id": "4253742"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:16:39-04:00",
+                        "stop_id": "4253724"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:20:17-04:00",
+                        "stop_id": "4253754"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:26:27-04:00",
+                        "stop_id": "4253734"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:30:14-04:00",
+                        "stop_id": "4253730"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:32:54-04:00",
+                        "stop_id": "4253768"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:36:41-04:00",
+                        "stop_id": "4253770"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:38:16-04:00",
+                        "stop_id": "4253766"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:38:46-04:00",
+                        "stop_id": "4253762"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:40:21-04:00",
+                        "stop_id": "4253728"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:42:25-04:00",
+                        "stop_id": "4253758"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:44:51-04:00",
+                        "stop_id": "4253742"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:48:22-04:00",
+                        "stop_id": "4253724"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:51:57-04:00",
+                        "stop_id": "4253754"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:58:06-04:00",
+                        "stop_id": "4253734"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T17:01:53-04:00",
+                        "stop_id": "4253730"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T17:04:37-04:00",
+                        "stop_id": "4253768"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T17:07:14-04:00",
+                        "stop_id": "4253770"
+                    }
+                ],
+                "tracking_status": "up",
+                "location": {
+                    "lat": 40.74330264255465,
+                    "lng": -74.1730758530388
+                },
+                "heading": 190
+            },
+            {
+                "standing_capacity": null,
+                "description": null,
+                "seating_capacity": null,
+                "last_updated_on": "2023-05-17T20:07:40+00:00",
+                "call_name": "3265",
+                "speed": 3.996,
+                "vehicle_id": "4019583",
+                "segment_id": "4539257",
+                "passenger_load": 0.15,
+                "route_id": "4014494",
+                "arrival_estimates": [
+                    {
+                        "route_id": "4014494",
+                        "arrival_at": "2023-05-17T16:11:51-04:00",
+                        "stop_id": "4253742"
+                    },
+                    {
+                        "route_id": "4014494",
+                        "arrival_at": "2023-05-17T16:13:47-04:00",
+                        "stop_id": "4253758"
+                    },
+                    {
+                        "route_id": "4014494",
+                        "arrival_at": "2023-05-17T16:16:03-04:00",
+                        "stop_id": "4253726"
+                    },
+                    {
+                        "route_id": "4014494",
+                        "arrival_at": "2023-05-17T16:23:44-04:00",
+                        "stop_id": "4253760"
+                    },
+                    {
+                        "route_id": "4014494",
+                        "arrival_at": "2023-05-17T16:35:09-04:00",
+                        "stop_id": "4253756"
+                    },
+                    {
+                        "route_id": "4014494",
+                        "arrival_at": "2023-05-17T16:41:41-04:00",
+                        "stop_id": "4253738"
+                    },
+                    {
+                        "route_id": "4014494",
+                        "arrival_at": "2023-05-17T16:43:48-04:00",
+                        "stop_id": "4253732"
+                    },
+                    {
+                        "route_id": "4014494",
+                        "arrival_at": "2023-05-17T16:48:14-04:00",
+                        "stop_id": "4253722"
+                    },
+                    {
+                        "route_id": "4014494",
+                        "arrival_at": "2023-05-17T16:52:18-04:00",
+                        "stop_id": "4253742"
+                    },
+                    {
+                        "route_id": "4014494",
+                        "arrival_at": "2023-05-17T16:54:10-04:00",
+                        "stop_id": "4253758"
+                    },
+                    {
+                        "route_id": "4014494",
+                        "arrival_at": "2023-05-17T16:56:22-04:00",
+                        "stop_id": "4253726"
+                    },
+                    {
+                        "route_id": "4014494",
+                        "arrival_at": "2023-05-17T17:03:59-04:00",
+                        "stop_id": "4253760"
+                    }
+                ],
+                "tracking_status": "up",
+                "location": {
+                    "lat": 40.7412784,
+                    "lng": -74.1868952
+                },
+                "heading": 112
+            },
+            {
+                "standing_capacity": null,
+                "description": null,
+                "seating_capacity": null,
+                "last_updated_on": "2023-05-17T20:07:38+00:00",
+                "call_name": "3367",
+                "speed": 26.568,
+                "vehicle_id": "4019589",
+                "segment_id": "4539187",
+                "passenger_load": 0.0,
+                "route_id": "4014496",
+                "arrival_estimates": [
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:08:19-04:00",
+                        "stop_id": "4253754"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:14:05-04:00",
+                        "stop_id": "4253734"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:17:51-04:00",
+                        "stop_id": "4253730"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:20:30-04:00",
+                        "stop_id": "4253768"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:24:16-04:00",
+                        "stop_id": "4253770"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:25:57-04:00",
+                        "stop_id": "4253766"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:26:26-04:00",
+                        "stop_id": "4253762"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:28:00-04:00",
+                        "stop_id": "4253728"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:30:05-04:00",
+                        "stop_id": "4253758"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:32:30-04:00",
+                        "stop_id": "4253742"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:36:01-04:00",
+                        "stop_id": "4253724"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:39:36-04:00",
+                        "stop_id": "4253754"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:45:44-04:00",
+                        "stop_id": "4253734"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:49:31-04:00",
+                        "stop_id": "4253730"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:52:10-04:00",
+                        "stop_id": "4253768"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:55:57-04:00",
+                        "stop_id": "4253770"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:57:45-04:00",
+                        "stop_id": "4253766"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:58:15-04:00",
+                        "stop_id": "4253762"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:59:49-04:00",
+                        "stop_id": "4253728"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T17:01:53-04:00",
+                        "stop_id": "4253758"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T17:04:18-04:00",
+                        "stop_id": "4253742"
+                    }
+                ],
+                "tracking_status": "up",
+                "location": {
+                    "lat": 40.738822712166176,
+                    "lng": -74.18839159940653
+                },
+                "heading": 58
+            },
+            {
+                "standing_capacity": null,
+                "description": null,
+                "seating_capacity": null,
+                "last_updated_on": "2023-05-17T20:07:10+00:00",
+                "call_name": "4910",
+                "speed": 17.676,
+                "vehicle_id": "4019599",
+                "segment_id": "4539187",
+                "passenger_load": 0.016666666666666666,
+                "route_id": "4014496",
+                "arrival_estimates": [
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:08:42-04:00",
+                        "stop_id": "4253768"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:12:05-04:00",
+                        "stop_id": "4253770"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:13:19-04:00",
+                        "stop_id": "4253766"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:13:50-04:00",
+                        "stop_id": "4253762"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:15:28-04:00",
+                        "stop_id": "4253728"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:17:34-04:00",
+                        "stop_id": "4253758"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:20:02-04:00",
+                        "stop_id": "4253742"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:23:35-04:00",
+                        "stop_id": "4253724"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:27:13-04:00",
+                        "stop_id": "4253754"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:33:25-04:00",
+                        "stop_id": "4253734"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:37:14-04:00",
+                        "stop_id": "4253730"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:39:53-04:00",
+                        "stop_id": "4253768"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:43:41-04:00",
+                        "stop_id": "4253770"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:45:16-04:00",
+                        "stop_id": "4253766"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:45:47-04:00",
+                        "stop_id": "4253762"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:47:23-04:00",
+                        "stop_id": "4253728"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:49:28-04:00",
+                        "stop_id": "4253758"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:51:54-04:00",
+                        "stop_id": "4253742"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:55:26-04:00",
+                        "stop_id": "4253724"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T16:59:03-04:00",
+                        "stop_id": "4253754"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T17:05:13-04:00",
+                        "stop_id": "4253734"
+                    },
+                    {
+                        "route_id": "4014496",
+                        "arrival_at": "2023-05-17T17:07:41-04:00",
+                        "stop_id": "4253730"
+                    }
+                ],
+                "tracking_status": "up",
+                "location": {
+                    "lat": 40.74201440328767,
+                    "lng": -74.17171663123287
+                },
+                "heading": 26
+            }
+        ]
+    },
+    "api_version": "1.2"
+}
