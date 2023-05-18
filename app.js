@@ -50,11 +50,19 @@ app.post('/form-handler', async (req, res) => {
   // Extract data from the request
   const selection = req.body.selection;
   // THIS TEH MOST IMPORTANT THING LOOK AT THIS IDOT ASHJFKDS AYOH R&N*UEYTR*&CB#TYBC $KJULHSDF KFJASHD
-  const data = JSON.parse(await getData("vehicles"));
-  const updatedHTML = `
-        <p>ur bus is ${JSON.stringify(data.data["1323"])},</p>
-
-  `;
+  const data = JSON.parse(await getData("vehicles")).data["1323"];
+  var updatedHTML = ``;
+  for (let i = 0; i < Object.keys(data).length; i++) {
+    if (data[i].route_id == (selection + "")) {
+      updatedHTML += `
+      <h1>Bus ${data[i].call_name}</h1>
+      <h5> ${data[i].passenger_load*100}% occupied, travelling at ${data[i].speed} miles/hr, located at ${data[i].location.lat} deg North, ${data[i].location.lng} deg West<h5>
+      `;
+      for (let j = 0; j < Object.keys(data[i].arrival_estimates).length; j++) {
+        updatedHTML += `<h3>Arrives at stop ${data[i].arrival_estimates[j].stop_id} at ${data[i].arrival_estimates[j].arrival_at} </h3>`;
+      }
+    }
+  }
 
   // Send the updated HTML as the response
   res.send(updatedHTML);
