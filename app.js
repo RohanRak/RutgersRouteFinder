@@ -25,7 +25,7 @@ async function getData(whichType) {
 
       res.on('end', function () {
         const body = Buffer.concat(chunks);
-        const result = body;
+        const result = body.toString();
         resolve(result);
       });
     });
@@ -50,9 +50,9 @@ app.post('/form-handler', async (req, res) => {
   // Extract data from the request
   const selection = req.body.selection;
   // THIS TEH MOST IMPORTANT THING LOOK AT THIS IDOT ASHJFKDS AYOH R&N*UEYTR*&CB#TYBC $KJULHSDF KFJASHD
-
+  const data = JSON.parse(await getData("vehicles"));
   const updatedHTML = `
-        <p>ur bus is ${(await getData("vehicles"))},</p>
+        <p>ur bus is ${JSON.stringify(data.data["1323"])},</p>
 
   `;
 
