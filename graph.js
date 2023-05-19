@@ -1,80 +1,52 @@
+const busStops = [
+    {stop_id: 4259062, name: "Busch Student Center"},
+    {stop_id: 4229570, name: "Livingston Plaza"},
+    {stop_id: 4255110, name: "Livingston Student Center"},
+    {stop_id: 4266590, name: "Quads"},
+    {stop_id: 4231636, name: "Hill Center Northbound"},
+    {stop_id: 4231636, name: "Hill Center Southbound"},
+    {stop_id: 4259048, name: "Allison Road Classroom"},
+    {stop_id: 4259046, name: "Busch/Livingston Health Center"}
+];
 
-class Graph {
+const numStops = busStops.length;
+const adjMatrix = new Array(numStops).fill(null).map(() => new Array(numStops).fill(Infinity));
 
-    constructor(graphSize) {
-        this.graphSize = graphSize;
-        this.AdjList = new Map();
+function addEdge(fromStopId, toStopId, weight) {
+    const fromIndex = busStops.findIndex(stop => stop.stop_id === fromStopId);
+    const toIndex = busStops.findIndex(stop => stop.stop_id === toStopId);
+    
+    if (fromIndex !== -1 && toIndex !== -1) {
+      adjMatrix[fromIndex][toIndex] = weight;
     }
+}
 
-    addVertex(v) {
-        if (!this.AdjList[v]) {
-            this.AdjList.set(v, []);
-        }
-    }
-
-    addEdge(v, w) {
-        this.AdjList.get(v).push(w);
-    }
-
-    printGraph() {
-
-        this.AdjList.forEach(function(keys) {
-            console.log("" + keys.name);
-        });
-
-        var get_keys = this.AdjList.keys();
-
-
-
-        for (var i in get_keys.name) {
-
-            var get_values = this.AdjList.get(i);
-            var str = "";
-
-            for (var j in get_values.name) {
-                str += j + " ";
+function printMatrix(adjMatrix) {
+    for (let i = 0; i < adjMatrix.length; i++) {
+        var str = "";
+        for (let j = 0; j < adjMatrix[i].length; j++) {
+            if (adjMatrix[i][j] === Infinity) {
+                str += "~ ";
+            } else {
+                str += adjMatrix[i][j] + " ";
             }
-
-            console.log(i + " -> " + str);
         }
-    }
-
-}
-
-class Node {
-    constructor(stopID, name) {
-        this.stopID = stopID;
-        this.name = name;
-    }
-
-    printNode() {
-        console.log("" + this.name);
+        console.log(str);
     }
 }
 
-var g = new Graph(7);
+addEdge(4259062, 4229570, 5); // B: BSC -> LP
+addEdge(4266590, 4231636, 5); // B: Quads -> HCN
+addEdge(4231636, 4259048, 2); // B: HCN -> ARC
+addEdge(4259048, 4259062, 2); // B: ARC -> BSC
 
-const BSC = new Node(4259062, "Busch Student Center");
-const ARC = new Node(4259048, "Allison Road Classroom");
-const HCN = new Node(4231636, "Hill Center (NB)");
-const LP = new Node(4229570, "Livingston Plaza");
-const LSC = new Node(4254110, "Livingston Student Center");
-const Quads = new Node(4266590, "Quads");
-const BLHC = new Node(4259046, "Busch-Livingston Health Center");
+addEdge(4259062, 4259048, 2); // BHE: BSC -> ARC
+addEdge(4259048, 4231636, 2); // BHE: ARC -> HCS
+addEdge(4231636, 4229570, 5); // BHE: HCS -> LP
+addEdge(4266590, 4259046, 2); // BHE: Quads -> BLHC
+addEdge(4259046, 4259062, 3); // BHE: BLHC -> BSC
 
-g.addVertex(BSC);
-g.addVertex(ARC);
-g.addVertex(HCN);
-g.addVertex(LP);
-g.addVertex(LSC);
-g.addVertex(Quads);
-g.addVertex(BLHC);
+addEdge(4229570, 4255110, 2); // B/BHE: LP -> LSC
+addEdge(4255110, 4266590, 2); // B/BHE: LSC -> Quads
 
- 
-g.addEdge(BSC, ARC);
-g.addEdge(ARC, HCN);
-g.addEdge(HCN, LP);
-g.addEdge(LP, LSC);
-g.addEdge(LSC, Quads);
-g.addEdge(Quads, BLHC);
-g.addEdge(BLHC, BSC);
+printMatrix(adjMatrix);
