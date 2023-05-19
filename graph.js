@@ -13,15 +13,15 @@ const numStops = busStops.length;
 const adjMatrix = new Array(numStops).fill(null).map(() => new Array(numStops).fill(Infinity));
 
 function addEdge(fromStopId, toStopId, weight) {
-    const fromIndex = busStops.findIndex(stop => stop.stop_id === fromStopId);
-    const toIndex = busStops.findIndex(stop => stop.stop_id === toStopId);
+    const fromIndex = indexOf(fromStopId);
+    const toIndex = indexOf(toStopId);
     
     if (fromIndex !== -1 && toIndex !== -1) {
       adjMatrix[fromIndex][toIndex] = weight;
     }
 }
 
-function printMatrix(adjMatrix) {
+function printMatrix() {
     for (let i = 0; i < adjMatrix.length; i++) {
         var str = "";
         for (let j = 0; j < adjMatrix[i].length; j++) {
@@ -33,6 +33,47 @@ function printMatrix(adjMatrix) {
         }
         console.log(str);
     }
+}
+
+function isConnected(stopID1, stopID2) {
+    if (stopID1 === stopID2) return true;
+    if (adjMatrix[indexOf(stopID1)][indexOf(stopID2)] != Infinity) return true;
+}
+
+function indexOf(targetStopID) {
+    return busStops.findIndex(stop => stop.stop_id === targetStopID);
+}
+
+function djikstraAlgorithm(startID) {
+
+    distances = {}
+    pred = {}
+    visited = {}
+
+    for (let i = 0; i < busStops.length; i++) {
+        distances[busStops[i].stop_id] = Infinity;
+        pred[busStops[i].stop_id] = -1;
+        visited[busStops[i].stop_id] = false;
+    }
+
+    distances[busStops[i].stop_id] = 0;
+
+    while(true) {
+        let index = 0;
+        for(let i = 0; i < distances.length; i++) {
+            let min = Infinity;
+            if (distances[i] < Infinity & visited[distances[i].stop_id]) {
+                min = distances[i];
+                index = i;
+            }
+        } 
+
+        if (distances[index] === Infinity) return;
+        visited[index] = true;
+
+        //-----
+    }
+    return distances;
 }
 
 addEdge(4259062, 4229570, 5); // B: BSC -> LP
@@ -50,3 +91,5 @@ addEdge(4229570, 4255110, 2); // B/BHE: LP -> LSC
 addEdge(4255110, 4266590, 2); // B/BHE: LSC -> Quads
 
 printMatrix(adjMatrix);
+
+console.log(djikstraAlgorithm(4255110));
