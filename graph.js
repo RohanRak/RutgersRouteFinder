@@ -1,95 +1,114 @@
-const busStops = [
-    {stop_id: 4259062, name: "Busch Student Center"},
-    {stop_id: 4229570, name: "Livingston Plaza"},
-    {stop_id: 4255110, name: "Livingston Student Center"},
-    {stop_id: 4266590, name: "Quads"},
-    {stop_id: 4231636, name: "Hill Center Northbound"},
-    {stop_id: 4231636, name: "Hill Center Southbound"},
-    {stop_id: 4259048, name: "Allison Road Classroom"},
-    {stop_id: 4259046, name: "Busch/Livingston Health Center"}
-];
+var FibonacciHeap = require('fibonacci-heap').FibonacciHeap,
+                    deepEqual = require('deep-equal'),
+                    stringify = require('json-stable-stringify');
 
-const numStops = busStops.length;
-const adjMatrix = new Array(numStops).fill(null).map(() => new Array(numStops).fill(Infinity));
+function dijkstra(graph, source) {
 
-function addEdge(fromStopId, toStopId, weight) {
-    const fromIndex = indexOf(fromStopId);
-    const toIndex = indexOf(toStopId);
+  var queue = new FibonacciHeap();
+  var dist = {}, prev = {};
+  dist[stringify(source)] = 0;
+
+  graph.vertices.forEach(function(vertex) {
+
+    var key = stringify(vertex);
     
-    if (fromIndex !== -1 && toIndex !== -1) {
-      adjMatrix[fromIndex][toIndex] = weight;
-    }
-}
-
-function printMatrix() {
-    for (let i = 0; i < adjMatrix.length; i++) {
-        var str = "";
-        for (let j = 0; j < adjMatrix[i].length; j++) {
-            if (adjMatrix[i][j] === Infinity) {
-                str += "~ ";
-            } else {
-                str += adjMatrix[i][j] + " ";
-            }
-        }
-        console.log(str);
-    }
-}
-
-function isConnected(stopID1, stopID2) {
-    if (stopID1 === stopID2) return true;
-    if (adjMatrix[indexOf(stopID1)][indexOf(stopID2)] != Infinity) return true;
-}
-
-function indexOf(targetStopID) {
-    return busStops.findIndex(stop => stop.stop_id === targetStopID);
-}
-
-function djikstraAlgorithm(startID) {
-
-    distances = {}
-    pred = {}
-    visited = {}
-
-    for (let i = 0; i < busStops.length; i++) {
-        distances[busStops[i].stop_id] = Infinity;
-        pred[busStops[i].stop_id] = -1;
-        visited[busStops[i].stop_id] = false;
+    if (!deepEqual(vertex, source)) {
+      dist[key] = Infinity;
+      prev[key] = null;
     }
 
-    distances[busStops[i].stop_id] = 0;
+    queue.insert({ value: vertex, priority: dist[key] });
 
-    while(true) {
-        let index = 0;
-        for(let i = 0; i < distances.length; i++) {
-            let min = Infinity;
-            if (distances[i] < Infinity & visited[distances[i].stop_id]) {
-                min = distances[i];
-                index = i;
-            }
-        } 
+  });
 
-        if (distances[index] === Infinity) return;
-        visited[index] = true;
+  while (queue.trees() !== 0) {
 
-        //-----
-    }
-    return distances;
+    var next = queue.deleteMin().value;
+    var nextKey = stringify(next);
+    var neighbors = graph.neighbors(next);
+
+    neighbors.forEach(function(neighbor) {
+      var neighborKey = stringify(neighbor);
+      var alt = dist[nextKey] + graph.distance(next, neighbor);
+      if (alt < dist[neighborKey]) {
+        dist[neighborKey] = alt;
+        prev[neighborKey] = next;
+        queue.update({ value: neighbor, priority: alt });
+      }
+    });
+
+  }
+
+  return dist;
+
 }
 
-addEdge(4259062, 4229570, 5); // B: BSC -> LP
-addEdge(4266590, 4231636, 5); // B: Quads -> HCN
-addEdge(4231636, 4259048, 2); // B: HCN -> ARC
-addEdge(4259048, 4259062, 2); // B: ARC -> BSC
+function Graph() {
+  this.vertexToEdges = {};
+}
 
-addEdge(4259062, 4259048, 2); // BHE: BSC -> ARC
-addEdge(4259048, 4231636, 2); // BHE: ARC -> HCS
-addEdge(4231636, 4229570, 5); // BHE: HCS -> LP
-addEdge(4266590, 4259046, 2); // BHE: Quads -> BLHC
-addEdge(4259046, 4259062, 3); // BHE: BLHC -> BSC
+Graph.prototype = {
 
-addEdge(4229570, 4255110, 2); // B/BHE: LP -> LSC
-addEdge(4255110, 4266590, 2); // B/BHE: LSC -> Quads
+  vertexToEdges: null,
 
-printMatrix(adjMatrix);
+  get vertices() {
+    return Object.keys(this.vertexToEdges).map(function(vertex) {
+      return JSON.parse(vertex);
+    });
+  },
 
-console.log(djikstraAlgorithm(4255110));
+  addVertex: function(vertex) {
+    var key = stringify(vertex);
+    this.vertexToEdges[key] = {};
+  },
+
+  addEdge: function(u, v, distance) {
+    var ukey = stringify(u);
+    var vkey = stringify(v);
+    this.vertexToEdges[ukey][vkey] = distance;
+    this.vertexToEdges[vkey][ukey] = distance;
+  },
+
+  distance: function(u, v) {
+    var ukey = stringify(u);
+    var vkey = stringify(v);
+    return this.vertexToEdges[ukey][vkey];
+  },
+
+  neighbors: function(vertex) {
+    var key = stringify(vertex);
+    return Object.keys(this.vertexToEdges[key]).map(function(neighbor) { 
+      return JSON.parse(neighbor); 
+    });
+  }
+
+};
+
+var g = new Graph();
+
+g.addVertex(4259062) // BSC
+g.addVertex(4229570) // LP
+g.addVertex(4255110) // LSC
+g.addVertex(4266590) // Quads
+g.addVertex(4231636) // HCN/HCS
+g.addVertex(4259048) // ARC
+g.addVertex(4259046) // BLHC
+
+g.addEdge(4259062, 4229570, 5); // B: BSC -> LP
+g.addEdge(4266590, 4231636, 5); // B: Quads -> HCN
+g.addEdge(4231636, 4259048, 2); // B: HCN -> ARC
+g.addEdge(4259048, 4259062, 2); // B: ARC -> BSC
+
+g.addEdge(4259062, 4259048, 2); // BHE: BSC -> ARC
+g.addEdge(4259048, 4231636, 2); // BHE: ARC -> HCS
+g.addEdge(4231636, 4229570, 5); // BHE: HCS -> LP
+g.addEdge(4266590, 4259046, 2); // BHE: Quads -> BLHC
+g.addEdge(4259046, 4259062, 3); // BHE: BLHC -> BSC
+
+g.addEdge(4229570, 4255110, 2); // B/BHE: LP -> LSC
+g.addEdge(4255110, 4266590, 2); // B/BHE: LSC -> Quads
+
+console.log(g);
+console.log(g.neighbors(4259062));
+
+console.log(dijkstra(g, 4259062));
