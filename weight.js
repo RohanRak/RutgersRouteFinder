@@ -23,7 +23,7 @@
  * Calculates the weight for an edge
  * @param travel_time 
  */
-function weight(travel_time, bus_full, busy_constant, num_buses) {
+function weight(travel_time, fill_percentage, busy_constant, num_buses) {
     // Temporary equation. Disregard
-    return (travel_time * Math.abs(bus_full-2)) + busy_constant + num_buses;
+    return (travel_time * (2 - fill_percentage)) + busy_constant + num_buses;
 }
