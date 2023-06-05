@@ -1,6 +1,4 @@
-var FibonacciHeap = require('fibonacci-heap').FibonacciHeap,
-                    deepEqual = require('deep-equal'),
-                    stringify = require('json-stable-stringify');
+var FibonacciHeap = require('fibonacci-heap').FibonacciHeap, deepEqual = require('deep-equal'), stringify = require('json-stable-stringify');
 
 function dijkstra(graph, source) {
 
