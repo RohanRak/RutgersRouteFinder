@@ -84,6 +84,7 @@ Graph.prototype = {
 
 var g = new Graph();
 
+
 g.addVertex(4259062) // BSC
 g.addVertex(4229570) // LP
 g.addVertex(4255110) // LSC
