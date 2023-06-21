@@ -4,6 +4,7 @@
     "fibonacci": "^1.6.11",
     "fibonacci-heap": "^0.0.4",
     "heap": "^0.2.7",
-    "http": "^0.0.1-security"
+    "http": "^0.0.1-security",
+    "react": "^18.2.0"
   }
 }

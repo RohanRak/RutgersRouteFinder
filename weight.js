@@ -21,9 +21,10 @@
 
 /*
  * Calculates the weight for an edge
- * @param travel_time 
  */
 function weight(travel_time, fill_percentage, busy_constant, num_buses) {
+
     // Temporary equation. Disregard
     return (travel_time * (2 - fill_percentage)) + busy_constant + num_buses;
+    
 }
